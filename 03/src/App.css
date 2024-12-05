@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+}
+
+main {
+  padding: 0 !important;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  background: #53d4ea;
+  justify-content: center;
+  color: white;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+
+.main-content-area {
+  display: flex;
+  margin-top: 12px;
+
+  .box-left {
+    flex: 0 0 20%;
+    .hero {
+      background: #d7c9e3;
+
+      p {
+        text-align: center;
+        color: white;
+        font-size: 1.5em;
+        height: 250px;
+        padding-top: 12px;
+      }
+    }
+
+    .sidebar {
+      background: #9fc363;
+      margin-top: 12px;
+      padding: 12px;
+      height: 350px;
+      p {
+        text-align: center;
+        color: white;
+        font-size: 1.5em;
+      }
+    }
+  }
+
+  .box-right {
+    flex: 1;
+    margin-left: 12px;
+
+    main {
+      background: #f5c632;
+
+      color: white;
+
+      h2 {
+        text-align: center;
+        font-size: 2em;
+      }
+
+      height: 450px;
+
+      .main-content {
+        padding: 12px;
+      }
+    }
+    .extra-content {
+      margin-top: 12px;
+      color: white;
+      background: #898989;
+      padding: 12px;
+      p {
+        text-align: center;
+        font-size: 1.5em;
+      }
+
+      height: 162px;
+    }
+  }
+}
+.related-area {
+  display: flex;
+  width: 100%;
+  margin-top: 12px;
+  .related-images {
+    flex: 1;
+    background: #2bb673;
+    margin-right: 12px;
+    height: 200px;
+
+    p {
+      text-align: center;
+      color: white;
+      font-size: 1.5em;
+      padding-top: 12px;
+    }
+  }
+  .related-posts {
+    background: #f0cedd;
+    width: 20%;
+    div {
+      display: flex;
+      justify-content: center;
+    }
+
+    p {
+      color: white;
+      font-size: 1.5em;
+      padding-top: 12px;
+      max-width: 100px;
+      text-align: center;
+    }
+  }
+}
+
+footer {
+  background: #fea500;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  margin-top: 12px;
+
+  p {
+    font-size: 1.5em;
+  }
+}
